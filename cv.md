@@ -12,7 +12,7 @@ For more than 10 years I have worked in advertising and independently studied ea
 I want to become a front-end developer, develop in this direction and reach new heights. I'm interested.  
 
 ### Skills
-+ **HTML/CSS**:   --------&#124;------------ (40%)  
++ **HTML/CSS**:   ----------&#124;---------- (50%)  
 + **JavaScript**: ----------&#124;---------- (50%)  
 + **React**:      --&#124;------------------ (10%)  
 
