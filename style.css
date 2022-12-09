@@ -1,0 +1,25 @@
+ul li, ol li {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    padding: 0 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    column-gap: 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
