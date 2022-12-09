@@ -43,8 +43,8 @@ ul li, ol li {
 pre {
     white-space: pre-wrap;
     word-break: break-word;
-    background-color: #b0b3b8;
-    color: #242526;
+    background-color: #18191a;
+    color: #b0b3b8;
     padding: 0 2rem;
     border-radius: 1rem;
 }
@@ -87,7 +87,7 @@ pre {
 
 .main__wrapper {
     display: grid;
-    grid-template-columns: minmax(310px, 0.5fr) 1fr;
+    grid-template-columns: minmax(280px, 0.5fr) 1fr;
     column-gap: 2rem;
 }
 
@@ -129,13 +129,13 @@ pre {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 0 0 2rem;
     text-align: center;
 }
 
 .info__image {
-    width: 50%;
-    margin: -10rem 0 0;
+    width: 150px;
+    margin: -7rem 0 0;
     border: 1rem solid #242526;
     border-radius: 50%;
 }
