@@ -1,5 +1,51 @@
+:root {
+    --bg-main: #18191a;
+    --bg-section: #242526;
+    --text-main: #b0b3b8;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-main);
+    background-color: var(--bg-main);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 0 0 2rem;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-main);
+}
+
 ul li, ol li {
     list-style-type: none;
+}
+
+pre {
+    white-space: pre-wrap;
+    background-color: #b0b3b8;
+    color: #242526;
+    padding: 0 2rem;
+    border-radius: 1rem;
 }
 
 .container {
@@ -13,13 +59,232 @@ ul li, ol li {
     justify-content: center;
 }
 
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    padding: 2rem;
+    border-radius: 0 0 1rem 1rem;
+    background-color: #242526;
+}
+
+.nav-bar {
+    width: 100%;
+}
+
 .nav-list {
-    display: grid;
-    grid-template-columns: repeat(5, max-content);
+    display: flex;
+    justify-content: space-between;
     column-gap: 15px;
 }
 
 .main {
     display: flex;
     justify-content: center;
+    margin: 2rem 0 0;
+}
+
+.main__wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    column-gap: 3rem;
+}
+
+.profile {
+    background-color: #242526;
+    border-radius: 1rem;
+    padding: 0 0 2rem;
+    height: max-content;
+    align-self: flex-start;
+    position: sticky;
+    top: 2rem;
+}
+
+.profile__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info__header {
+    width: 100%;
+    height: 100px;
+    background-image: url(./images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.info__title {
+    margin: 1.5rem 0 0;
+}
+
+.info__subtitle {
+    margin: 1rem 0 0;
+}
+
+.info__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.info__image {
+    width: 50%;
+    margin: -10rem 0 0;
+    border: 1rem solid #242526;
+    border-radius: 50%;
+}
+
+.profile__body {
+    padding: 0 2rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-top: 1px solid #3e4042;
+    padding: 2rem 0 0;
+}
+
+.contact__list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact__item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact__icon {
+    display: flex;
+    justify-content: center;
+    width: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #242526;
+    border-radius: 1rem;
+}
+
+.skills {
+    border-top: 1px solid #3e4042;
+    padding: 2rem 0 0;
+}
+
+.skills__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+.skills__item {
+    list-style-type: disc;
+    margin: 0 0 0 2rem;
+}
+
+.education {
+    border-top: 1px solid #3e4042;
+    padding: 2rem 0 0;
+}
+
+.education__university {
+    display: grid;
+    grid-template-columns: 1fr 0.3fr;
+    column-gap: 2rem;
+}
+
+.education__image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses {
+    border-top: 1px solid #3e4042;
+    padding: 2rem 0 0;
+}
+
+.courses__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.courses__item {
+    list-style-type: disc;
+    margin: 0 0 0 2rem;
+}
+
+.projects {
+    border-top: 1px solid #3e4042;
+    padding: 2rem 0 0;
+}
+
+.projects__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 1rem;
+}
+
+.project__item {
+    display: flex;
+    flex-direction: column;
+    background-color: #18191a;
+    border-radius: 1rem;
+}
+
+.project__item-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.project__item-body {
+    padding: 2rem;
+}
+
+.code {
+    border-top: 1px solid #3e4042;
+    padding: 2rem 0 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 0;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    padding: 2rem;
+    border-radius: 1rem 1rem 0 0;
+    background-color: #242526;
+}
+
+.footer__github {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__logo-img {
+    width: auto;
+    height: 2rem;
 }
