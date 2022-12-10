@@ -4,8 +4,190 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Andrey Fedorov | Front-End Developer</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <nav class="nav-bar">
+                    <ul class="nav-list">
+                        <li class="nav-link"><a href="#about">About</a></li>
+                        <li class="nav-link"><a href="#skills">Skills</a></li>
+                        <li class="nav-link"><a href="#education">Education</a></li>
+                        <li class="nav-link"><a href="#courses">Courses</a></li>
+                        <li class="nav-link"><a href="#projects">Projects</a></li>
+                        <li class="nav-link"><a href="#code">Code</a></li>
+                        <li class="nav-link"><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main__wrapper">
+                <div class="profile">
+                    <div class="profile__header">
+                        <section class="profile__info" id="profile">
+                            <div class="info__header"></div>
+                            <div class="info__body">
+                                <img class="info__image" src="./images/img.jpg" alt="Andrey Fedorov">
+                                <h1 class="info__title">Andrey Fedorov</h1>
+                                <p class="info__subtitle">Front-End Developer</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="profile__body">
+                        <section class="contact" id="contact">
+                            <h2 class="contact__title">Contact:</h2>
+                            <ul class="contact__list">
+                                <li class="contact__item">
+                                    <i class="fa-brands fa-github contact__icon"></i>
+                                    <a href="https://github.com/ndrutv" target="_blank">@ndrutv</a>
+                                </li>
+                                <li class="contact__item">
+                                    <i class="fa-brands fa-linkedin contact__icon"></i>
+                                    <a href="https://linkedin.com/in/ndrutv/" target="_blank">@ndrutv</a>
+                                </li>
+                                <li class="contact__item">
+                                    <i class="fa-brands fa-discord contact__icon"></i>
+                                    Andrey Fedorov (@ndrutv)#4479
+                                </li>
+                                <li class="contact__item">
+                                    <i class="fa-solid fa-envelope contact__icon"></i>
+                                    <a href="mailto:info@ndru.tv">info@ndru.tv</a>
+                                </li>
+                                <li class="contact__item">
+                                    <i class="fa-solid fa-location-dot contact__icon"></i>
+                                    Tbilisi, Georgia
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+                <div class="content">
+                    <section class="about" id="about">
+                        <h2 class="title about__title">About Myself</h2>
+                        <p>Hey! My name is Andrey, I live in Tbilisi (Georgia) and I'm studying to be a front-end developer.</p>
+                        <p>Here you'll find all information about my knowledge, skills and experience, as well as projects that I have already done.</p>
+                        <p>Now I'm looking for an internship to gain real experience in development or project-based remote work. Contact me if you're interested.</p>
+                    </section>
+                    <section class="skills" id="skills">
+                        <h2 class="title skills__title">Skills</h2>
+                        <ul class="skills__list">
+                            <li class="skills__item">HTML/HTML5</li>
+                            <li class="skills__item">CSS/CSS3</li>
+                            <li class="skills__item">JavaScript/ES6</li>
+                            <li class="skills__item">Git/GitHub</li>
+                            <li class="skills__item">IDE/VS Code</li>
+                            <li class="skills__item">English/A1</li>
+                        </ul>
+                    </section>
+                    <section class="education" id="education">
+                        <h2 class="title education__title">Education</h2>
+                        <div class="education__university">
+                            <div>
+                                <p><strong>Saint-Petersburg Electrotechnical University «LETI»</strong></p>
+                                <p>Faculty of Economics and Management</p>
+                                <p>Years: 2005 - 2008</p>
+                                <p>Specialization: innovation management</p>
+                            </div>
+                            <div class="education__image-wrapper">
+                                <img src="./images/leti_logo_krug-eng_gold.svg" alt="LETI">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="courses" id="courses">
+                        <h2 class="title courses__title">Courses</h2>
+                        <ul class="courses__list">
+                            <li class="courses__item">
+                                <a href="https://www.freecodecamp.org/certification/ndru/responsive-web-design" target="_blank">freeCodeCamp: Responsive Web Design</a> (2022 - 2022)
+                            </li>
+                            <li class="courses__item">
+                                <a href="https://www.udemy.com/course/javascript_full/" target="_blank">Udemy: Полный курс по JavaScript + React</a> (2022 - …)
+                            </li>
+                            <li class="courses__item">
+                                <a href="https://rs.school/js-stage0/" target="_blank">RS School: JavaScript/Front-end. Stage 0</a> (2022 - …)
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="projects" id="projects">
+                        <h2 class="title projects__title">Projects</h2>
+                        <div class="projects__list">
+                            <div class="project__item">
+                                <a href="" target="_blank">
+                                    <img class="project__item-image" src="./images/project-2.png" alt="Plants">
+                                    <div class="project__item-body">
+                                        <h3>Plants</h3>
+                                        <p>Work done in the learning process. Used in the work: HTML, CSS, JS</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="project__item">
+                                <a href="" target="_blank">
+                                    <img class="project__item-image" src="./images/project-3.png" alt="Educare">
+                                    <div class="project__item-body">
+                                        <h3>Educare</h3>
+                                        <p>The work was done in the process of self-study. Used in the work: HTML, CSS, JS</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="code" id="code">
+                        <h2 class="title code__title">Code example</h2>
+                        <pre><code>
+const timer = document.querySelector('.timer');
+let setTimeInSeconds = 130,
+    intervalId = null;
+
+let startCountDown = (sec, item) => {
+    item.textContent = transformTime(sec);
+
+    intervalId = setInterval(() => {
+        if ( sec > 0 ) {
+            sec--;
+            item.textContent = transformTime(sec);
+        } else {
+            clearInterval(intervalId);
+        }
+    }, 1000);
+};
+
+let transformTime = (sec) => {
+    let minutes = Math.floor(sec / 60);
+    let seconds = sec % 60;
+
+    return `${('0' + minutes).slice(-2)}:${('0' + seconds).slice(-2)}`;
+};
+
+startCountDown(setTimeInSeconds, timer);
+                            </code></pre>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__github">
+                    <i class="fa-brands fa-github contact__icon"></i>
+                    <a href="https://github.com/ndrutv/" target="_blank">GitHub</a>
+                </div>
+                <div>2022</div>
+                <div class="footer__logo">
+                    <a href="https://rs.school/js/" target="_blank">
+                        <img class="footer__logo-img" src="./images/rs_school_js.svg" alt="Rsschool">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
